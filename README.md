@@ -28,7 +28,7 @@
 
 1- Clonar este repositório: 
 ```
-git clone https://github.com/viquiiz/angular-playstation-store.git
+git clone https://github.com/viquiiz/angular-buzzfeed-clone.git
 ```
 
 2- Instalar o Angular: 
