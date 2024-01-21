@@ -32,7 +32,7 @@
     padding: 2rem;
 }
 
-.quiz_questions> img {
+.quiz_questions > img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +53,7 @@
     background-color: #AE914B;
     border-radius: 0.8rem;
     border: 0.1rem solid #3E3023;
-    width: 40%;
+    width: 46%;
     display: inline-block;
     cursor: pointer;
     color: #ffffff;
@@ -87,6 +87,7 @@
 }
 .quiz_results > h1 {
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .quiz_results > h2 {
@@ -140,5 +141,28 @@
     .quiz_questions {
         display: flex;
         flex-direction: column;
+    }
+
+    .quiz_logo > img {
+        width: 90%;
+    }
+
+    .btn_option { 
+        font-size: 1.2rem;
+    }
+
+    .quiz_questions > h3 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .remake_quiz{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 405px) {
+    .btn_option {
+        width: 40%;
     }
 }
