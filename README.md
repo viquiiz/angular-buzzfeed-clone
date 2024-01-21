@@ -11,7 +11,7 @@
 </div>
 
 
-<p align="justify">Este é um projeto que foi desenvolvido como parte do Coding The Future Banco PAN - Desenvolvimento Frontend com Angular. O objetivo deste projeto foi de criar um teste de personalidade estilo BuzzFeed, com perguntas e alternativas que mostrarão um resultado com base na alternativa de maior ocorrência. Fiz modificações no projeto proposto e escolhi a temática do jogo League of Legends para desenvolver a página.</p>
+<p align="justify">Este é um projeto que foi desenvolvido como parte do Coding The Future Banco PAN - Desenvolvimento Frontend com Angular. O objetivo deste projeto foi de criar um teste de personalidade estilo BuzzFeed, com perguntas e alternativas que mostrarão um resultado com base na alternativa de maior ocorrência. Fiz modificações no projeto proposto e escolhi a temática do jogo League of Legends para desenvolver a página. Para ver o deploy do projeto é só clicar <a href="https://viquiiz.github.io/angular-buzzfeed-clone/angular-buzzfeed-clone/">aqui</a></p>
 
 <br>
 
