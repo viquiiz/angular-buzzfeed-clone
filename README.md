@@ -45,7 +45,7 @@ npm install
 
 <h3>💿 Rodando o projeto:</h3>
 
-1- Abra o projeto na IDE de sua escolha e inicie o servidor local via terminal: 
+1- Iniciar o servidor local: 
 ```
 ng serve
 ```
