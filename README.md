@@ -1,27 +1,56 @@
-# AngularBuzzfeedClone
+ <h1 align="center"> Clone do BuzzFeed com Angular </h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.3.
+<div align="center">
 
-## Development server
+![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![HTML5](https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+</div>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+<p align="justify">Este é um projeto que foi desenvolvido como parte do Coding The Future Banco PAN - Desenvolvimento Frontend com Angular. O objetivo deste projeto foi de criar um teste de personalidade estilo BuzzFeed, com perguntas e alternativas que mostrarão um resultado com base na alternativa de maior ocorrência. Fiz modificações no projeto proposto e escolhi a temática do jogo League of Legends para desenvolver a página.</p>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<br>
 
-## Running unit tests
+<div align="center">
+    <img alt="Gif preview do projeto" height="380" src="./src/assets/img/desktopview.gif">
+    <p>Visualização do projeto no navegador</p>
+</div>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<hr>
 
-## Running end-to-end tests
+<h3>🛠 Instalando o projeto:</h3>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<br>
 
-## Further help
+1- Clonar este repositório: 
+```
+git clone https://github.com/viquiiz/angular-playstation-store.git
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2- Instalar o Angular: 
+```
+npm install -g @angular/cli
+```
+
+3- Instalar as dependências: 
+```
+npm install
+```
+
+<br>
+
+<h3>💿 Rodando o projeto:</h3>
+
+1- Iniciar um servidor local: 
+```
+ng serve
+```
+
+2- Acessar no navegador: 
+```
+http://localhost:4200
+```

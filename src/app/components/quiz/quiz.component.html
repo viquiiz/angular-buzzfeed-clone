@@ -1,0 +1,20 @@
+<div class="quiz_container">
+    <div class="quiz_logo">
+        <img src=".\assets\img\logo.png" alt="logo  do buzzfeed">
+        <h3>{{title}}</h3>
+    </div>
+    <div *ngIf=!finished class="quiz_questions">
+        <img src="{{question.img}}">
+        <h3>{{question.question}}</h3>
+    </div>
+    <div *ngIf=!finished class="quiz_options">
+        <button *ngFor="let option of question.options; let i = index" (click)="playerChoice(option.alias)" class="btn_option">{{option.name}}</button>
+    </div>
+    <div *ngIf=finished class="quiz_results">
+        <h1>O seu resultado é:</h1>
+        <h2>{{selectedAnswer.text}}</h2>
+        <img src="{{selectedAnswer.img}}">
+        <p>{{selectedAnswer.description}}</p>
+        <button class="remake_quiz" (click)="remakeQuiz()">Refazer Quiz</button>
+    </div>
+</div>

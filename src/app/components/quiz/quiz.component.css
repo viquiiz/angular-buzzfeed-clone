@@ -1,0 +1,144 @@
+.quiz_container {
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.quiz_logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.quiz_logo > h3 {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.quiz_questions {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid #3E3023;
+    border-radius: 0.8rem;
+    background-color: #AE914B;
+    width: 100%;
+    min-height: 20rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+.quiz_questions> img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    height: 16rem;
+}
+
+.quiz_options {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.btn_option {
+    background-color: #AE914B;
+    border-radius: 0.8rem;
+    border: 0.1rem solid #3E3023;
+    width: 40%;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 1.7rem;
+    padding: 1.6rem 0.8rem;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #3E3023;
+    text-align: center; 
+    margin: 0.4rem;
+}
+
+.btn_option:hover {
+    background-color: #564624 ;
+}
+
+.btn_option:active {
+    position: relative;
+    top: 0.1rem;
+}
+
+.quiz_results {
+    width: 100%;
+    height: fit-content;
+    background-color: #3A7875;
+    border-radius: 1rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.quiz_results > h1 {
+    margin-bottom: 2rem;
+}
+
+.quiz_results > h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.quiz_results > p {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.quiz_results > img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    height: 16rem;
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.remake_quiz{
+    display: inline-block;
+    background-color: #AE914B;
+    border-radius: 0.8rem;
+    border: 0.1rem solid #3E3023;
+    width: 40%;
+    display: inline-block;
+    cursor: pointer;
+    color: antiquewhite;
+    font-size: 1.7rem;
+    padding: 1.6rem 0.4rem;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #3E3023;
+    margin: 1rem;
+    
+}
+
+.remake_quiz:hover {
+    background-color: #564624 ;
+}
+
+.remake_quiz:active {
+    position: relative;
+    top: 0.1rem;
+}
+
+
+@media screen and (max-width: 660px) {
+    .quiz_questions {
+        display: flex;
+        flex-direction: column;
+    }
+}
