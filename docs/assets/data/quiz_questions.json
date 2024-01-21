@@ -1,0 +1,102 @@
+{
+    "title":"Qual sua lane perfeita no League of Legends?",
+    "questions":[
+      {
+        "id":1,
+        "question": "No seu grupo de amigos, quem você é?",
+        "img": "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcms5amhjem8zMnk1Z2ZlYndwZnE0YjVoYnQ1dTNhc3hzOWd6OXBmaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/xgC0dqgNE2b7KvH0W0/giphy.gif",
+        "options":[
+          {"id": 1, "name":"Que amigos?", "alias":"A"},
+          {"id": 4, "name":"O engraçado", "alias":"D"},
+          {"id": 3, "name":"O inteligente", "alias":"C"},
+          {"id": 2, "name":"O líder", "alias":"B"},
+          {"id": 5, "name":"O que tá sempre ajudando", "alias":"E"}
+        ]
+      },
+      {
+        "id":2,
+        "question": "Quando alguém do seu time faz uma péssima jogada, você:",
+        "img":"https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2k1ZnA2aW5pbGtwODcxbDJ5MnZ2cmE0aDhmeTR1YWV1djR1aGtzaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Sf7KLPZYUsBQiAqhSQ/giphy.gif",
+
+        "options":[
+          {"id": 2, "name":"Manda todos se acalmarem que você carrega", "alias":"B"},
+          {"id": 1, "name":"Nem vê, só sabe o que acontece na sua lane", "alias":"A"},
+          {"id": 3, "name":"Vai correndo gankar a lane dele", "alias":"C"},
+          {"id": 5, "name":"Começa a repensar o seu pick de campeão", "alias":"E"},
+          {"id": 4, "name":"Xinga até a décima geração do cidadão", "alias":"D"}
+        ]
+      },
+      {
+        "id":3,
+        "question": "O jogo terminou e o seu time perdeu, você:",
+        "img":"https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHI3dDVrMDZubWdvaHdsNmtkYXhhaDhxbGE5ZHhoZGNpcXc4ajh5MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/rcyNxRuPHUZk9Q2UCJ/giphy.gif",
+        "options":[
+          {"id": 2, "name":"Já começa outra sem pensar", "alias":"B"},
+          {"id": 1, "name":"Bota a culpa no jungler", "alias":"A"},
+          {"id": 4, "name":"Xinga todo mundo e fala que vai jogar sério na próxima", "alias":"D"},
+          {"id": 3, "name":"Levanta, toma uma aguinha e volta pro jogo", "alias":"C"},
+          {"id": 5, "name":"Sabe que deu o seu melhor", "alias":"E"}
+        ]
+      },
+      {
+        "id":4,
+        "question": "O jogo terminou e o seu time ganhou! Você:",
+        "img":"https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzJrNnlnaWpqOW9jenNmc2xkbDZ0NmIzdm55OXV0OHIxank1MzA0eSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/CzAik6JwdLPkxXdKwg/giphy.gif",
+        "options":[
+          {"id": 5, "name":"Agradece o time", "alias":"E"},
+          {"id": 1, "name":"Tem certeza que garantiu a sua lane", "alias":"A"},
+          {"id": 3, "name":"Sabe que no fundo você ajudou o time todo", "alias":"C"},
+          {"id": 2, "name":"Manda gg easy para os inimigos", "alias":"B"},
+          {"id": 4, "name":"Fala que carregou e ainda xinga todo mundo", "alias":"D"}
+        ]
+      },
+      {
+        "id":5,
+        "question": "Como você escolhe o campeão que irá jogar?",
+        "img":"https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExenJvMWJvcnYwbzkwbHoxeDNtYXppcHZ3Y3k1ODdyaHJlcGszZG5zcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/M1piXuMMzEMi5ySXFK/giphy.gif",
+        "options":[
+          {"id": 3, "name":"Pego o campeão que o time pediu", "alias":"C"},
+          {"id": 1, "name":"Jogo com o que me garanto", "alias":"A"},
+          {"id": 4, "name":"Escolho o que tenho vontade de jogar", "alias":"D"},
+          {"id": 5, "name":"Jogo com o que o time precisa", "alias":"E"},
+          {"id": 2, "name":"Só jogo com um campeão", "alias":"B"}
+        ]
+      },
+      {
+        "id":6,
+        "question": "Como você consegue ouro no jogo?",
+        "img":"https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZHZqdmRnb2x6dmdieG9yOTMzZWNpbDJ0c3Fpanltdm9taWVkYzZwbiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/CY94optWGcql6K9TCM/giphy.gif",
+        "options":[
+          {"id": 2, "name":"Matando os oponentes", "alias":"B"},
+          {"id": 4, "name":"Farmando", "alias":"D"},
+          {"id": 3, "name":"Sumo do jogo por 10 minutos e volto cheio de itens", "alias":"C"},
+          {"id": 5, "name":"Que ouro?", "alias":"E"},
+          {"id": 1, "name":"Derrubando torres", "alias":"A"}
+        ]
+      }
+    ],
+    "results":[
+      {
+        "A": {
+          "text":"TOP Monstro!",
+          "img": "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExamY0aGVibHV5czFtZmkzMHJjZDFiaGtxNHJ6MTEzZnIzb2dod2ZscSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uR6julmSW90mk/giphy.gif",
+          "description": "Você é daqueles que fica sozinho na ilha do Top, às vezes até esquecido. Mas quando volta pro jogo, carrega o time nas costas (ou pelo menos tenta)."},
+        "B": {
+          "text":"Dono do MID!",
+          "img": "https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZzh5cjBsemdhdXBnYXkwaTFzbGl5d3NpcGJ1d3N2a3h2bTJxaGVhYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/oFqpDNTEij8CvxIn8b/giphy.gif",
+          "description": "Você entra no jogo e fala: 'Mid é meu!'. Ninguém contesta. Ainda, claro, ganha o First Blood!"},
+        "C": {
+          "text":"JUNGLE que controla o jogo!",
+          "img": "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExcng4Z2d2endod2J3bm95eW9tMG9pb3lua21razk2anR4bzFwbWo3cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4dXkewtnNw9yM/giphy.gif",
+          "description": "Você é daqueles que gosta de jogar no mapa todo, caçar objetivos e de quebra garantir uma killzinha para as lanes."},
+        "D": {
+          "text":"ADC que carrega!",
+          "img": "https://media4.giphy.com/media/wiNJnp9pR2fdTeyDzD/giphy.gif?cid=ecf05e47u1rnoayiu59t2kc3tg35onq7czc0fnudmds55h88&ep=v1_gifs_search&rid=giphy.gif&ct=g",
+          "description": "Farma tanto que quando volta para a lane, o bot do outro time treme!"},
+        "E": {
+          "text":"O SUPORTE que todo mundo agradece!",
+          "img":"https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXBpbzc0MTNvZ2dyMTlxN2g5MWwxcXhhZnNuYmk0cDJzOXJ6NnV6ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CTZsoOfJKCtFGulhzs/giphy.gif",
+          "description": "Dá a tranquilidade que o time precisa. Warda direitinho. Ajuda o ADC noob. E ainda ganka o Mid!"}
+      }
+    ]
+}
